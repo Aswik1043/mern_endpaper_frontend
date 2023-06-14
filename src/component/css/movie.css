@@ -1,0 +1,43 @@
+*{
+    margin : 0%;
+    padding: 0%;
+}
+.product1{
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.txt{
+    font-size: 20px;
+    font-weight: 300;
+}
+.price{
+    font-size: 30px;
+    font-weight: 500;
+}
+button{
+    padding: 4px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 250, 250);
+}
+
+.product1 img{
+    height: 200px;
+    width: 200px;
+}
+div{
+    color: white;
+}
+.searchbar input{
+    width: 2000px;
+    height: 30px;
+}
